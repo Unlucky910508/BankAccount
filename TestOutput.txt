@@ -1,0 +1,60 @@
+Account <John Smith> now has $1400.0 balance
+
+EXCEPTION: Banking system throws a class BankingException with message: 
+        MESSAGE: Underfraft from checking account name:John Smith
+        Account balance remains $1500.0
+
+//////////////////////////////////// Checking account////////////////////////////////////////////////////////////////
+EXCEPTION: Banking system throws a class BankingException with message: 
+        MESSAGE: Underfraft from checking account name:John Smith
+        Account balance remains $1500.0
+
+Account <John Smith> now has $1200.0 balance
+
+////////////////////////////////////// Saving Account //////////////////////////////////////////////////////////////////
+Account <William Hurt> now has $39400.0 balance
+
+Account <William Hurt> now has $38800.0 balance
+
+Account <William Hurt> now has $38200.0 balance
+
+Account <William Hurt> now has $37599.0 balance
+
+Account <William Hurt> now has $38199.0 balance
+
+////////////////////////////////////// CD Account //////////////////////////////////////////////////////////////////
+Account <Woody Allison> now has $18400.0 balance
+
+Account <Woody Allison> now has $23400.0 balance
+
+Account <Woody Allison> now has $22650.0 balance
+
+Warning: withdraw during CD time, cost 250 transaction fee.
+Account <Woody Allison> now has $21650.0 balance
+
+////////////////////////////////////// Loan Account //////////////////////////////////////////////////////////////////
+EXCEPTION: Banking system throws a class BankingException with message:
+        MESSAGE: Withdraw error: It's a loan account. Acount name: Judi Foster
+        Account balance remains $-15000.0
+
+Account <Judi Foster> now has $-14400.0 balance
+
+///////////////////////////////////////// Interest Test////////////////////////////////////////////////////////////////////
+Number of days since last interest is 26
+Interest earned is 10.26
+Account <John Smith> now has $1210.26 balance
+
+Number of months since last interest is 0
+Interest earned is 0.0
+Account <John Smith> now has $38199.0 balance
+
+Number of months since last interest is 0
+Interest earned is 0.0
+Account <John Smith> now has $21650.0 balance
+Number of months since last interest is 0
+Interest earned is 0.0
+Account <John Smith> now has $1000.0 balance
+
+Number of days since last interest is 0
+Interest earned is 0.0
+Account <John Smith> now has $-1500.0 balance
